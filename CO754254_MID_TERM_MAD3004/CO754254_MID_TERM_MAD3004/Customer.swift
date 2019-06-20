@@ -10,5 +10,16 @@ import Foundation
 
 class customer
 {
-
+    var customerId: String
+    var firstname : String
+    var lastname : String
+    var emailAddress: String
+    init()
+    {
+        self.customerId = String()
+        self.firstname = String()
+        self.lastname = String()
+        self.emailAddress = String()
+       
+    }
 }
