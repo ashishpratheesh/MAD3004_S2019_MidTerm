@@ -23,7 +23,10 @@ class customer
         self.firstname = String()
         self.lastname = String()
         self.emailAddress = String()
+        self.totalAmounToPay = String()
         
+        
+      
        
     }
 
