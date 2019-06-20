@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9B47E10A22BC3D3B00444102 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47E10922BC3D3B00444102 /* main.swift */; };
+		9B47E11322BC42C100444102 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47E11222BC42C100444102 /* Mobile.swift */; };
+		9B47E11522BC42D800444102 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47E11422BC42D800444102 /* Internet.swift */; };
+		9B47E11722BC42F000444102 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47E11622BC42F000444102 /* Hydro.swift */; };
+		9B47E11922BC42FF00444102 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47E11822BC42FF00444102 /* Customer.swift */; };
+		9B47E11B22BC43F600444102 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47E11A22BC43F600444102 /* Bill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		9B47E10622BC3D3B00444102 /* CO754254_MID_TERM_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CO754254_MID_TERM_MAD3004; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B47E10922BC3D3B00444102 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B47E11222BC42C100444102 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		9B47E11422BC42D800444102 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		9B47E11622BC42F000444102 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
+		9B47E11822BC42FF00444102 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9B47E11A22BC43F600444102 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				9B47E10922BC3D3B00444102 /* main.swift */,
+				9B47E11A22BC43F600444102 /* Bill.swift */,
+				9B47E11422BC42D800444102 /* Internet.swift */,
+				9B47E11622BC42F000444102 /* Hydro.swift */,
+				9B47E11222BC42C100444102 /* Mobile.swift */,
+				9B47E11822BC42FF00444102 /* Customer.swift */,
 			);
 			path = CO754254_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -119,6 +134,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B47E11722BC42F000444102 /* Hydro.swift in Sources */,
+				9B47E11322BC42C100444102 /* Mobile.swift in Sources */,
+				9B47E11922BC42FF00444102 /* Customer.swift in Sources */,
+				9B47E11522BC42D800444102 /* Internet.swift in Sources */,
+				9B47E11B22BC43F600444102 /* Bill.swift in Sources */,
 				9B47E10A22BC3D3B00444102 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
