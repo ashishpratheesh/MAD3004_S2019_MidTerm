@@ -8,9 +8,19 @@
 
 import Foundation
 
-class internet:bill{
-    
-}
+class internet:bill
 {
+    
+    var providerName: String
+    var internetGBUsed: String
+    override init()
+    {
+        
+      
+        self.internetGBUsed = String()
+        self.providerName = String ()
+        super.init()
+    }
+
     
 }
