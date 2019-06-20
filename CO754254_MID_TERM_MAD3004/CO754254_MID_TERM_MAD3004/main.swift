@@ -9,3 +9,6 @@
 import Foundation
 
 
+var
+var customer = 
+var customers : [customer]?

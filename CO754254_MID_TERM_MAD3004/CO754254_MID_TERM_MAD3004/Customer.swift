@@ -14,12 +14,17 @@ class customer
     var firstname : String
     var lastname : String
     var emailAddress: String
+    var billDictionry = [ "key1 : value1" , "key2 : value2" ]
+    var totalAmounToPay : String
+    
     init()
     {
         self.customerId = String()
         self.firstname = String()
         self.lastname = String()
         self.emailAddress = String()
+        
        
     }
+
 }
