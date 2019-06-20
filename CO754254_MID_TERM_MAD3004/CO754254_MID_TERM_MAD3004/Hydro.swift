@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class hydro:bill
+{
+    var agencyName :String
+    var unitconsumed: String
+    override init()
+    {
+        
+        self.agencyName = String()
+        self.unitconsumed = String()
+        super .init()
+        
+    }
+    
+}
