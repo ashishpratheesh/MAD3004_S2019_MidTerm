@@ -15,7 +15,7 @@ class customer
     var lastname : String
     var emailAddress: String
     var billDictionry = [ "key1 : value1" , "key2 : value2" ]
-    var totalAmounToPay : String
+    var totalAmounToPay : Double
     
     init()
     {
@@ -23,7 +23,7 @@ class customer
         self.firstname = String()
         self.lastname = String()
         self.emailAddress = String()
-        self.totalAmounToPay = String()
+        self.totalAmounToPay = Double()
         
         
       
