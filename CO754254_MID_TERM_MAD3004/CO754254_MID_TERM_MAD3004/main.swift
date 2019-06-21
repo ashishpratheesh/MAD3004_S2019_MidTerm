@@ -65,7 +65,7 @@ customer3.totalAmounToPay = 43
 let bill6 = bill()
 bill6.billId = 1
 bill6.billDate = "monday, 20,2019"
-bill6.BillAmount = 43.25
+bill6.BillAmount = 45
 
 
 func Display()
@@ -84,9 +84,16 @@ if( customerId == 1)
     
 print ("----------Bill information--------")
     print("**************************************")
-    print("bill id : \(bill1)")
+    print("bill id : \(bill1.billId)")
     print("bill type")
-    print
+    print("unit consumed is:")
+    print("**************************************")
+    print("bill id : \(bill2.billId)")
+    print ("bill date : \(bill2.billDate)")
+    print("bill type")
+    print("unit consumed is:")
+    
+ 
     
 }
 else if( customerId == 2)
@@ -95,13 +102,33 @@ else if( customerId == 2)
     print("firstame  : \(customer2.firstname)")
     print ( "Email iD Is:\(customer2.emailAddress)")
     
-}
+    print ("----------Bill information--------")
+    print("**************************************")
+    print("bill id : \(bill3.billId)")
+    print ("bill date : \(bill3.billDate)")
+    print("bill type")
+    print("unit consumed is:")
+    
+    
+    }
+    
 else if( customerId == 3)
 {
     print("customer Id is :\(customer3.customerId)")
     print("firstame : \(customer3.firstname)")
     print ( "Email iD Is :\(customer3.emailAddress)")
-    print ("total bill amount is :\(totalbill)")
+    print ("total bill amount is :")
+    
+    print ("----------Bill information--------")
+    print("**************************************")
+    print("bill id : \(bill6)")
+      print ("bill date : \(bill6.billDate)")
+    print("bill type")
+    print("unit consumed is:")
+    
+    
 }
 
+
 }
+
