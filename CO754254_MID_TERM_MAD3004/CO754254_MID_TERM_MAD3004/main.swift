@@ -8,7 +8,8 @@
 
 import Foundation
 
-var totalbill = internet.billAmount + hydro.billAmount
+var totalbill : Double
+totalbill  = internet.BillAmount + hydro.billAmount
 // customer object
 
 let customer1 = customer()
@@ -16,12 +17,12 @@ customer1.customerId = "1"
 customer1.firstname = "jack"
 customer1.lastname = "cruise "
 customer1.emailAddress = " jackcruse@gail.com"
-customer1.totalAmounToPay = " $ 500"
+customer1.totalAmounToPay = 500
 
 let bill1 = bill()
-bill1.billId = "1"
-bill1.billDate = " monday, 20,2019"
-bill1.bill
+bill1.billId = 1
+bill1.billDate = "monday, 20,2019"
+bill1.BillAmount = 40.25
 
 
 // customer object
