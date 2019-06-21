@@ -8,15 +8,6 @@
 
 import Foundation
 
-func Totalbill()
-{
-    
-    totalbill = billamount1 + billamount2
-
-var totalbill:Double
-var billamount1 : Double
-var billamount2 : Double
-}
 class bill
     
 {
@@ -30,7 +21,7 @@ class bill
         self.billId = Int()
         self.billDate = String()
         self.billType = String()
-        self.BillAmount = Totalbill()
+        self.BillAmount = Double()
         
         
     }

@@ -13,14 +13,14 @@ class internet:bill
     
     var providerName: String
     var internetGBUsed: String
-    var BillAmount: Double
+    var billAmount1: Double
     override init()
     {
         
       
         self.internetGBUsed = String()
         self.providerName = String ()
-        self.BillAmount = double()
+        self.billAmount1 = Double()
         super.init()
     }
 

@@ -8,13 +8,6 @@
 
 import Foundation
 
-func totalbill()
-{
-    var totalbill: Double
-    
-totalbill = 
-
-}
 
 let customer1 = customer()
 customer1.customerId = "1"
