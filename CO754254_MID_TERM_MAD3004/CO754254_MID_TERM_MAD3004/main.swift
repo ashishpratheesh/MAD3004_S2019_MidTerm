@@ -10,39 +10,58 @@ import Foundation
 
 
 // customer object
+
 let customer1 = customer()
 customer1.customerId = "1"
 customer1.firstname = "jack"
 customer1.lastname = "cruise "
 customer1.emailAddress = " jackcruse@gail.com"
-customer1.totalAmounToPay = " $ 100"
+customer1.totalAmounToPay = " $ 500"
+
+
 
 // customer object
 let customer2 = customer()
 customer2.customerId = "2"
-customer2.firstname = "jack"
+customer2.firstname = "mark"
 customer2.lastname = "cruise "
-customer2.emailAddress = " jackcruse@gail.com"
+customer2.emailAddress = " addhskcruse@gail.com"
 customer2.totalAmounToPay = " $ 100"
 
 // customer object
 let customer3 = customer()
 customer3.customerId = "3"
-customer3.firstname = "jack"
-customer3.lastname = "cruise "
-customer3.emailAddress = " jackcruse@gail.com"
-customer3.totalAmounToPay = " $ 100"
+customer3.firstname = "rambo"
+customer3.lastname = " sparrow "
+customer3.emailAddress = " rambosparoee@gail.com"
+customer3.totalAmounToPay = " $ 300"
 
 
 
 
-var choice : Int?
-   choice = 0
+
 print("enter customer Id")
-let customerId = readLine()
+var customerId : Int
+customerId = Int(readLine()!)!
 
-switch choice!
+if( customerId == 1)
 {
-case 1: print(customer1)
-
+    print("customer Id is :\(customer1.customerId)")
+    print("firstame  : \(customer1.firstname)")
+    print ( "Email iD Is  : \(customer1.emailAddress)")
+    
+}
+else if( customerId == 2)
+{
+    print("customer Id is :\(customer2.customerId)")
+    print("firstame  : \(customer2.firstname)")
+    print ( "Email iD Is  : \(customer2.emailAddress)")
+    
+}
+else if( customerId == 3)
+{
+    print("customer Id is :\(customer3.customerId)")
+    print("firstame  : \(customer3.firstname)")
+    print ( "Email iD Is  : \(customer3.emailAddress)")
+    
 }
