@@ -8,7 +8,7 @@
 
 import Foundation
 
-
+var totalbill = internet.billAmount + hydro.billAmount
 // customer object
 
 let customer1 = customer()
@@ -18,6 +18,10 @@ customer1.lastname = "cruise "
 customer1.emailAddress = " jackcruse@gail.com"
 customer1.totalAmounToPay = " $ 500"
 
+let bill1 = bill()
+bill1.billId = "1"
+bill1.billDate = " monday, 20,2019"
+bill1.bill
 
 
 // customer object
@@ -45,20 +49,25 @@ if( customerId == 1)
 {
     print("customer Id is :\(customer1.customerId)")
     print("firstame  : \(customer1.firstname)")
-    print ( "Email iD Is  : \(customer1.emailAddress)")
+    print ( "Email iD Is:\(customer1.emailAddress)")
+    
+    
+print ("----------Bill information--------")
+    print("bill id : \(
     
 }
 else if( customerId == 2)
 {
     print("customer Id is :\(customer2.customerId)")
     print("firstame  : \(customer2.firstname)")
-    print ( "Email iD Is  : \(customer2.emailAddress)")
+    print ( "Email iD Is:\(customer2.emailAddress)")
     
 }
 else if( customerId == 3)
 {
     print("customer Id is :\(customer3.customerId)")
-    print("firstame  : \(customer3.firstname)")
-    print ( "Email iD Is  : \(customer3.emailAddress)")
-    
+    print("firstame : \(customer3.firstname)")
+    print ( "Email iD Is :\(customer3.emailAddress)")
+    print ("total bill amount is :\(totalbill)")
 }
+

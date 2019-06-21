@@ -12,11 +12,13 @@ class hydro:bill
 {
     var agencyName :String
     var unitconsumed: String
+    var BillAmount: Double
     override init()
     {
         
         self.agencyName = String()
         self.unitconsumed = String()
+        self.BillAmount = double()
         super .init()
         
     }
