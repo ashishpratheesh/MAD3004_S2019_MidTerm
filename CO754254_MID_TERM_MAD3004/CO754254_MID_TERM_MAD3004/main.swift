@@ -37,9 +37,6 @@ customer3.emailAddress = " rambosparoee@gail.com"
 customer3.totalAmounToPay = " $ 300"
 
 
-
-
-
 print("enter customer Id")
 var customerId : Int
 customerId = Int(readLine()!)!
